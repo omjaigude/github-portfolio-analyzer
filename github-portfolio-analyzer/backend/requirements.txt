@@ -1,0 +1,6 @@
+# Backend requirements for GitHub Recruiter Analyzer
+
+fastapi
+uvicorn
+requests
+python-dotenv

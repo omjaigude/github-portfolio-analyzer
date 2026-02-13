@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitHub_Recruiter_Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>GitHub Portfolio Analyzer</h1>
+
+<div class="search">
+<input id="username" placeholder="Enter GitHub Username">
+<button onclick="analyze()">Analyze</button>
+</div>
+
+<div id="result" class="card hidden">
+
+<h2 id="name"></h2>
+<p id="stats"></p>
+
+<div class="scoreBox">
+<span id="score"></span>
+<span id="grade"></span>
+</div>
+
+<h3>Report</h3>
+<ul id="report"></ul>
+
+<h3>AI Recruiter Feedback</h3>
+<div id="review"></div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
