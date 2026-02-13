@@ -2,8 +2,6 @@
 
 A web application that evaluates a developer’s GitHub profile and generates a hiring recommendation based on repository activity and contribution statistics.
 
-Built for Hackathon Submission 🏆
-
 ---
 
 ## 📌 Objective
@@ -79,7 +77,7 @@ project/
 │   ├── github_api.py
 │   ├── scorer.py
 │   ├── reviewer.py
-├── requirements.txt
+│   ├──requirements.txt
 │   └── .env
 │
 ├── frontend/
@@ -170,5 +168,5 @@ Output:
 Only public GitHub data is accessed. No private information is collected.
 
 
-## 👨‍💻 Develop By Author: Om Jaigude
+## 👨‍💻 Author: Om Jaigude
 
