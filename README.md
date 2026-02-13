@@ -8,11 +8,13 @@ Built for Hackathon Submission 🏆
 
 ## 📌 Objective
 
-Recruiters often rely on resumes which may not accurately represent real coding ability.
-
 This project analyzes a developer’s actual GitHub activity and automatically provides a skill evaluation and hiring suggestion.
 
 ---
+
+## 📌 Optional Way
+Add GitHub token in backend/.env to increase API request limit.
+Project works without token as well.
 
 ## 🧠 How It Works
 
@@ -24,11 +26,22 @@ This project analyzes a developer’s actual GitHub activity and automatically p
 
 ---
 
+## 📷 Demo
+
+### Home Page
+![Home](assets/home.png)
+
+### Enter Username
+![Input](assets/working.png)
+
+### Prediction Result
+![Result](assets/result.png)
+
+
 ## 📊 Features Analyzed
 
 * Number of repositories
 * Followers count
-* Following count
 * Stars received
 * Fork count
 * Activity level
@@ -37,25 +50,6 @@ This project analyzes a developer’s actual GitHub activity and automatically p
 Each feature contributes to a total developer score.
 
 ---
-
-## 🧮 Evaluation Logic
-
-The system calculates a score based on developer activity:
-
-Higher activity → Higher score → Better recommendation
-
-The score is categorized into:
-
-| Score Range | Level        |
-| ----------- | ------------ |
-| Low         | Beginner     |
-| Medium      | Intermediate |
-| High        | Advanced     |
-| Very High   | Expert       |
-
----
-
-## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -82,8 +76,10 @@ project/
 │
 ├── backend/
 │   ├── app.py
-│   ├── github_fetcher.py
-│   ├── predictor.py
+│   ├── github_api.py
+│   ├── scorer.py
+│   ├── reviewer.py
+├── requirements.txt
 │   └── .env
 │
 ├── frontend/
@@ -91,7 +87,6 @@ project/
 │   ├── style.css
 │   └── script.js
 │
-├── requirements.txt
 └── README.md
 ```
 
@@ -169,32 +164,11 @@ Output:
 * Activity Score: High
 * Hiring Suggestion: Strong Hire
 
----
-
-## 🎯 Use Cases
-
-* Quick developer screening
-* Internship filtering
-* Hackathon team selection
-* Open-source contributor evaluation
-
----
 
 ## 🔐 Privacy
 
 Only public GitHub data is accessed. No private information is collected.
 
----
 
-## 🚀 Future Improvements
+## 👨‍💻 Develop By Author: Om Jaigude
 
-* Add Machine Learning prediction
-* Resume upload analysis
-* Recruiter dashboard
-* Candidate comparison tool
-
----
-
-## 👨‍💻 Developed For
-
-Hackathon Project Submission
