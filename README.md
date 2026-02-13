@@ -27,13 +27,15 @@ Project works without token as well.
 ## 📷 Demo
 
 ### Home Page
-![Home](assets/home.png)
+<img width="1702" height="823" alt="Screenshot 2026-02-13 193614" src="https://github.com/user-attachments/assets/9a6db3f5-a94f-4a6c-a0c4-a78fc92ed3f7" />
+
 
 ### Enter Username
-![Input](assets/working.png)
+<img width="1699" height="793" alt="Screenshot 2026-02-13 193653" src="https://github.com/user-attachments/assets/c9a86eb1-53a4-478d-b37a-0b9420ba3217" />
+
 
 ### Prediction Result
-![Result](assets/result.png)
+<img width="1456" height="883" alt="Screenshot 2026-02-13 193738" src="https://github.com/user-attachments/assets/58285565-0718-46ad-8b60-534fd5284c89" />
 
 
 ## 📊 Features Analyzed
